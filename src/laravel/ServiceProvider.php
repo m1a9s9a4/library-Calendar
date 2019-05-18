@@ -1,6 +1,6 @@
 <?php
 
-namespace Mkato\Library\Laravel;
+namespace Mkato\Library\Calendar\Laravel;
 
 use Illuminate\Support\ServiceProvider as BaseServiceProvider;
 

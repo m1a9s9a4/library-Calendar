@@ -20,7 +20,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Mkato\\Library\\Calendar\\Tests\\" : "tests"
+            "Mkato\\Library\\Tests\\" : "tests"
         }
     },
     "require-dev": {
@@ -29,7 +29,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Mkato\\Library\\Laravel\\ServiceProvider"
+                "Mkato\\Library\\Calendar\\Laravel\\ServiceProvider"
             ]
         }
     }
