@@ -29,7 +29,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Library\\Calendar\\ServiceProvider"
+                "Mkato\\Library\\Laravel\\ServiceProvider"
             ]
         }
     }

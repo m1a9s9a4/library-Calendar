@@ -1,6 +1,6 @@
 <?php
 
-namespace Library\laravel;
+namespace Mkato\Library\Laravel;
 
 use Illuminate\Support\ServiceProvider as BaseServiceProvider;
 
