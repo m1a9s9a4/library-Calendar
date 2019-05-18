@@ -1,0 +1,36 @@
+{
+    "name": "mkato/library-calendar",
+    "require": {
+        "google/apiclient": "^2.2",
+        "nesbot/carbon": "^2.18",
+        "php": "^7.1",
+        "laravel/framework": "^5.8"
+    },
+    "description": "An API extension for getting free time from users calendar",
+    "authors": [
+        {
+            "name": "masafumi kato",
+            "email": "xslash1105@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Mkato\\Library\\Calendar\\" : "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Mkato\\Library\\Calendar\\Tests\\" : "tests"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.5"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Library\\Calendar\\ServiceProvider"
+            ]
+        }
+    }
+}
