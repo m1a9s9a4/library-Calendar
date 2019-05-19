@@ -15,7 +15,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Mkato\\Library\\Calendar\\" : "src"
+            "Mkato\\Library\\Calendar\\" : "src/Calendar"
         }
     },
     "autoload-dev": {
