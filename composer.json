@@ -2,7 +2,7 @@
     "name": "mkato/library-calendar",
     "require": {
         "google/apiclient": "^2.2",
-        "nesbot/carbon": "^2.18",
+        "nesbot/carbon": "^2.41",
         "php": "^7.1",
         "laravel/framework": "^5.8"
     },
