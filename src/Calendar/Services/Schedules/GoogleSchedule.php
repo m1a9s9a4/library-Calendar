@@ -1,4 +1,7 @@
 <?php
+/**
+ * Googleカレンダー用のスケジュール管理クラス
+ */
 
 namespace Mkato\Library\Calendar\Services\Schedules;
 
