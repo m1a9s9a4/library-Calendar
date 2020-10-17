@@ -6,7 +6,7 @@ use Illuminate\Support\ServiceProvider as BaseServiceProvider;
 use Mkato\Library\Calendar\Services\CalendarManagers\CalendarManager;
 use Mkato\Library\Calendar\Services\CalendarManagers\GoogleCalendarManager;
 
-class yCalendarServiceProvider extends BaseServiceProvider
+class CalendarServiceProvider extends BaseServiceProvider
 {
     /**
      * Register services.
