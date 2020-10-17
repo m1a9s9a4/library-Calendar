@@ -21,5 +21,5 @@ It returns the time which has no schedule between the datetime you passed.
 Because it just looks into the schedule, the target time is 24 hours. Therefore midnight time will also be selected as a free time.
 
 ### busy time
-It returns the time which has schedule.
+It returns the time which has some kind of schedule.
 
