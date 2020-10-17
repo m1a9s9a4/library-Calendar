@@ -5,34 +5,33 @@
 
 namespace Mkato\Library\Calendar\Services\Schedules;
 
+use Carbon\Carbon;
+
 class GoogleSchedule implements ScheduleInterface
 {
-    protected $name;
     protected $members;
     protected $start;
     protected $end;
 
-    public function __construct()
+    public function __construct($members, $start, $end)
     {
-    }
-
-    public function getName()
-    {
-        // TODO: Implement getName() method.
+        $this->members = $members;
+        $this->start = Carbon::parse($start);
+        $this->end = Carbon::parse($end);
     }
 
     public function getMembers()
     {
-        // TODO: Implement getMembers() method.
+        return $this->members;
     }
 
     public function getStart()
     {
-        // TODO: Implement getStart() method.
+        return $this->start;
     }
 
     public function getEnd()
     {
-        // TODO: Implement getEnd() method.
+        return $this->end;
     }
 }

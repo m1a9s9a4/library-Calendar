@@ -14,8 +14,18 @@ class Calendar
         $this->manager = $manager;
     }
 
-    public function setInstance($instance)
+    public function setClient($client)
     {
-        $this->manager->set($instance);
+        $this->manager->set($client);
+    }
+
+    public function getBusyTimes($ids, $from, $to)
+    {
+        return $this->manager->busyTime($ids, $from, $to);
+    }
+
+    public function getFreeTimes($ids, $from, $to)
+    {
+        return $this->manager->freeTime($ids, $from, $to);
     }
 }
