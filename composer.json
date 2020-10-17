@@ -3,7 +3,8 @@
     "require": {
         "php": "^7.3",
         "laravel/framework": "^8.0",
-        "nesbot/carbon": "^2.41"
+        "nesbot/carbon": "^2.41",
+        "google/apiclient": "^2.7"
     },
     "description": "An API extension for getting free time from users calendar",
     "authors": [
