@@ -1,5 +1,9 @@
 # library-calendar
+https://packagist.org/packages/mkato/library-calendar
 
+```
+composer require mkato/library-calendar 
+```
 ## about
 Calender Manager (ex: GoogleCalenderManager) is doing the hard things.
 It get's the schedules from the calendar via api.
